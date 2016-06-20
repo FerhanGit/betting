@@ -10,7 +10,7 @@ use Betting\Models\HttpClientModel as HttpClientModel;
 
 /**
  * All HTTP requests are performed using Basic HTTP authorization
- * All available methods are trigered asynchronously by Ajax calls according to user's actions
+ * All available methods are triggered asynchronously by Ajax calls according to user's actions
  * Guzzle HTTP client is used for http communication between the Platform and Operator\s
  * Any successful response is send back to javascript and relevant messsage is shown to the user
  * Any error in response is send back to javascript and relevant message is shown to the user
